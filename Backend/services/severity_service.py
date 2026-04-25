@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # Load model once (important for performance)
-model = YOLO(r"D:\Ahad\Final_year_project\Yolo_model\Trained_model\yolov8n2\weights\best.pt")
+model = YOLO("best.pt")
 
 def process_image(file_bytes):
     # Convert bytes → numpy image

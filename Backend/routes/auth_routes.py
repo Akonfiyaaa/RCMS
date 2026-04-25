@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from Backend.database import users_collection
-from Backend.models.user_model import User
+from database import users_collection
+from models.user_model import User
 from fastapi import Query
 
 router = APIRouter(prefix="/auth", tags=["Auth"])

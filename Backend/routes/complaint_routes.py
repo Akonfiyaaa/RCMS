@@ -1,12 +1,12 @@
 from fastapi import APIRouter, UploadFile, File, Form, Query
 from bson import ObjectId
 
-from Backend.database import complaints_collection
-from Backend.services.severity_service import process_image
-from Backend.services.map_service import get_traffic_density
-from Backend.utils.helpers import image_to_base64
+from database import complaints_collection
+from services.severity_service import process_image
+from services.map_service import get_traffic_density
+from utils.helpers import image_to_base64
 from datetime import datetime, timezone
-from Backend.services.gnn_service import run_gnn
+from services.gnn_service import run_gnn
 
 
 router = APIRouter(prefix="/api", tags=["Complaints"])

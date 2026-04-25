@@ -1,6 +1,6 @@
 import random
 import requests
-from Backend.config import GOOGLE_MAPS_API_KEY
+from config import GOOGLE_MAPS_API_KEY
 
 def get_traffic_density(origin_lat, origin_lng):
     url = "https://maps.googleapis.com/maps/api/distancematrix/json"

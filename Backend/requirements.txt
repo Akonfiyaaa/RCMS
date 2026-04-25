@@ -1,25 +1,15 @@
-fastapi==0.136.0
-uvicorn==0.44.0
+fastapi
+uvicorn
 
-pydantic==2.13.3
-python-multipart==0.0.26
-requests==2.33.1
+pydantic
+python-multipart
+requests
 
-numpy==2.2.6
-networkx==3.4.2
+numpy
+networkx
 
-pymongo==4.17.0
+pymongo
+typing_extensions
 
-tqdm==4.67.3
-typing_extensions==4.15.0
-
-# ✅ ML STACK (ONLY ONE VERSION SET)
 torch==2.1.2
 torchvision==0.16.2
-torchaudio==2.1.2
-
-# GNN
-torch-geometric==2.7.0
-
-# Optional (keep only if actually used)
-ultralytics==8.4.37

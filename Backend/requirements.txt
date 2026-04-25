@@ -2,8 +2,6 @@ fastapi==0.136.0
 uvicorn==0.44.0
 
 pydantic==2.13.3
-pydantic-core==2.46.3
-
 python-multipart==0.0.26
 requests==2.33.1
 
@@ -15,13 +13,13 @@ pymongo==4.17.0
 tqdm==4.67.3
 typing_extensions==4.15.0
 
-# PyTorch (CPU-safe version)
-torch==2.5.1
-torchvision==0.20.1
-torchaudio==2.5.1
+# ✅ ML STACK (ONLY ONE VERSION SET)
+torch==2.1.2
+torchvision==0.16.2
+torchaudio==2.1.2
 
-# GNN support
+# GNN
 torch-geometric==2.7.0
 
-# Optional ML model (safe)
+# Optional (keep only if actually used)
 ultralytics==8.4.37

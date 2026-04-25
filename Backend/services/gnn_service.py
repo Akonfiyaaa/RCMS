@@ -7,7 +7,7 @@ from torch_geometric.data import Data
 from torch_geometric.nn import GCNConv
 import numpy as np
 
-MODEL_PATH = r"D:\Ahad\Final_year_project\gnn_model\gnn_model.pth"
+MODEL_PATH = "gnn_model.pth"
 
 # =========================
 # ⏱️ Timestamp / age helper

@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from Backend.routes.complaint_routes import router as complaint_router
-from Backend.routes.auth_routes import router as auth_router
+from routes.complaint_routes import router as complaint_router
+from routes.auth_routes import router as auth_router
 
 
 

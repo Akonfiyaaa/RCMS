@@ -6,7 +6,7 @@ python-multipart
 requests
 
 numpy
-networkxlibxcb
+
 pymongo
 typing_extensions
 
